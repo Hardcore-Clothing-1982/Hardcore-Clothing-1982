@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  hardcoreclothing1982:
+    image: hardcoreclothing1982
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
